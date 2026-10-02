@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Glowing Red/Orange Aura -->
+    <path
+        android:fillColor="#15FF3D00"
+        android:pathData="M50,10 A40,40 0 1,1 50,90 A40,40 0 1,1 50,10 Z" />
+
+    <!-- Antenna -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF3D00"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M60,26 L74,12" />
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M74,12 A3.5,3.5 0 1,1 74,11.9 Z" />
+
+    <!-- Rounded TV Frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A1A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,28 H76 A10,10 0 0,1 86,38 V72 A10,10 0 0,1 76,82 H24 A10,10 0 0,1 14,72 V38 A10,10 0 0,1 24,28 Z" />
+
+    <!-- 3D Ribbon 'Z' Upper Flap -->
+    <path
+        android:fillColor="#FF5722"
+        android:strokeColor="#FF6E40"
+        android:strokeWidth="1.5"
+        android:pathData="M18,36 C18,30 26,26 36,26 H68 C73,26 77,30 74,36 L56,54 H30 L18,36 Z" />
+
+    <!-- 3D Ribbon 'Z' Diagonal Core -->
+    <path
+        android:fillColor="#D50000"
+        android:pathData="M30,54 L56,54 L32,80 H20 C16,80 15,76 18,72 L30,54 Z" />
+
+    <!-- 3D Ribbon 'Z' Lower Base Flap -->
+    <path
+        android:fillColor="#FF6D00"
+        android:strokeColor="#FFA000"
+        android:strokeWidth="1.5"
+        android:pathData="M32,80 L50,62 H72 C77,62 80,67 77,72 L72,80 C68,85 62,85 54,85 H38 C31,85 28,82 32,80 Z" />
+
+    <!-- Center Play Triangle (White + Orange Core) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,45 L59,55 L43,65 Z" />
+    <path
+        android:fillColor="#FFAB00"
+        android:pathData="M45,49 L55,55 L45,61 Z" />
+</vector>

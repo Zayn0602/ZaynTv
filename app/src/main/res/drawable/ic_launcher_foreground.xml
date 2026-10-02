@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Group centered strictly in 66dp safe zone (21..87) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Outer Flowing Ribbon Z - Upper Loop -->
+        <path
+            android:fillColor="#00E5FF"
+            android:strokeColor="#FF6B00"
+            android:strokeWidth="3.6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M31,46 C27,42 30,34 37,34 C44,34 50,37 54,42 C51,46 44,48 38,48 Z" />
+        <!-- Ribbon Z - Diagonal and Lower Sweeping Loop -->
+        <path
+            android:fillColor="#00E5FF"
+            android:strokeColor="#7C4DFF"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M34,46 C39,52 32,60 30,67 C28,73 34,77 42,75 C49,74 58,69 66,69 C60,73 50,77 41,77 C32,77 26,71 28,64 C30,58 35,53 34,46 Z" />
+        <!-- TV Screen Frame (Cyan neon outline) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M44,45 H66 A5,5 0 0,1 71,50 V66 A5,5 0 0,1 66,71 H44 A5,5 0 0,1 39,66 V56" />
+        <!-- 3 Broadcast / Signal Waves radiating from top-right corner of TV -->
+        <!-- Wave 1 (Inner) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FF6B00"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M61,39 A10,10 0 0,1 70,48" />
+        <!-- Wave 2 (Middle) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FF9E00"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M61,33 A17,17 0 0,1 77,48" />
+        <!-- Wave 3 (Outer) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M61,27 A24,24 0 0,1 84,48" />
+        <!-- Circular Play Button Base inside TV -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M48,58 A11,11 0 1,1 48,57.9 Z" />
+        <!-- Circular Play Button Outer Ring -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#0B0F19"
+            android:strokeWidth="1.6"
+            android:pathData="M48,58 A11,11 0 1,1 48,57.9 Z" />
+        <!-- Sharp Play Triangle inside circle -->
+        <path
+            android:fillColor="#0B0F19"
+            android:pathData="M45,52.5 L54,58 L45,63.5 Z" />
+        <!-- Small top antenna pip on TV -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M59,44 A2.2,2.2 0 1,1 59,43.9 Z" />
+    </group>
+</vector>

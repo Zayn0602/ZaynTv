@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- ====================================================================== -->
+    <!-- OFFICIAL ZAYNTV MASTER LOGO (1:1 Aspect Ratio)                         -->
+    <!-- 1. 3D Ribbon 'Z' + Retro-Modern Television with Center Glowing Play    -->
+    <!-- 2. Bold 3D Metallic 'Zayn' & Fiery Gradient 'Tv'                       -->
+    <!-- 3. Black Capsule Pill Badge 'IPTV • LIVE TV'                           -->
+    <!-- ====================================================================== -->
+
+    <!-- 1. TV SET (Positioned behind and entwined with the 3D 'Z' Ribbon) -->
+    <group android:name="tv_set">
+        <!-- Antenna: Thin Red Rod with Orange Knob -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#E51D1D"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M136,36 L158,16" />
+        <!-- Antenna Spherical Ball Top -->
+        <path
+            android:fillColor="#FF9100"
+            android:strokeColor="#FF6D00"
+            android:strokeWidth="0.8"
+            android:pathData="M158,16 A4,4 0 1,1 158,15.9 Z" />
+
+        <!-- Outer TV Body Base Shadow -->
+        <path
+            android:fillColor="#8A0000"
+            android:pathData="M66,42 H165 A14,14 0 0,1 179,56 V94 A14,14 0 0,1 165,108 H66 A14,14 0 0,1 52,94 V56 A14,14 0 0,1 66,42 Z" />
+
+        <!-- Outer TV Bezel / Frame (Vibrant Glossy Red with Rounded Corners) -->
+        <path
+            android:fillColor="#E51D1D"
+            android:strokeColor="#FF5722"
+            android:strokeWidth="1.2"
+            android:pathData="M66,38 H165 A14,14 0 0,1 179,52 V90 A14,14 0 0,1 165,104 H66 A14,14 0 0,1 52,90 V52 A14,14 0 0,1 66,38 Z" />
+
+        <!-- Top Frame Gloss / Highlight -->
+        <path
+            android:fillColor="#FF7A00"
+            android:pathData="M66,38 H165 A14,14 0 0,1 176,46 L168,50 H63 L55,46 A14,14 0 0,1 66,38 Z" />
+
+        <!-- Inner TV Screen (Dark Glossy Charcoal Screen with Bevel) -->
+        <path
+            android:fillColor="#0E0F14"
+            android:strokeColor="#222530"
+            android:strokeWidth="1.5"
+            android:pathData="M72,46 H159 A8,8 0 0,1 167,54 V88 A8,8 0 0,1 159,96 H72 A8,8 0 0,1 64,88 V54 A8,8 0 0,1 72,46 Z" />
+
+        <!-- TV Screen Gloss Diagonal Reflection -->
+        <path
+            android:fillColor="#1C2130"
+            android:pathData="M76,46 L140,46 L110,96 L76,96 Z" />
+
+        <!-- Center Glowing Play Button Triangle -->
+        <!-- Shadow Behind Play Button -->
+        <path
+            android:fillColor="#590000"
+            android:pathData="M106,56 L134,71 L106,86 Z" />
+        <!-- Play Button Golden-Orange Base -->
+        <path
+            android:fillColor="#FF9100"
+            android:pathData="M104,54 L132,69 L104,84 Z" />
+        <!-- Play Button Top Highlight (Lighter Yellow) -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M104,54 L132,69 L118,69 L104,61 Z" />
+        <!-- Inner Accent Triangle -->
+        <path
+            android:fillColor="#FF6D00"
+            android:pathData="M108,61 L124,69 L108,77 Z" />
+    </group>
+
+    <!-- 2. 3D RIBBON LETTER 'Z' (Bold, Glossy, Layered Over and Around TV) -->
+    <group android:name="ribbon_z">
+        <!-- Bottom Base Shadow of Lower Ribbon Loop -->
+        <path
+            android:fillColor="#7F0000"
+            android:pathData="M38,102 C30,102 36,116 46,118 H138 C144,118 148,114 146,108 C144,104 140,102 136,102 H46 Z" />
+
+        <!-- Lower Horizontal Base Flap (Orange to Bright Yellow) -->
+        <path
+            android:fillColor="#FF8C00"
+            android:pathData="M42,98 C34,98 38,114 50,116 H138 C144,116 148,112 144,106 C140,100 134,98 128,98 H42 Z" />
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M36,100 C34,106 38,114 48,116 H70 L62,98 H42 C39,98 37,99 36,100 Z" />
+
+        <!-- Main 3D Diagonal Ribbon Bar (Deep Crimson Core) -->
+        <path
+            android:fillColor="#B71C1C"
+            android:pathData="M52,98 L136,28 H104 L34,92 Z" />
+        <path
+            android:fillColor="#D50000"
+            android:pathData="M58,98 L142,28 H120 L40,94 Z" />
+
+        <!-- Top Fold Shadow -->
+        <path
+            android:fillColor="#7F0000"
+            android:pathData="M24,44 C24,34 36,26 54,26 H132 C140,26 142,32 136,38 L124,48 H48 C36,48 24,48 24,44 Z" />
+
+        <!-- Upper Horizontal Ribbon Flap (Fiery Red to Vibrant Orange-Yellow) -->
+        <path
+            android:fillColor="#E51D1D"
+            android:pathData="M26,38 C26,26 40,24 60,24 H134 C142,24 144,30 138,36 L124,46 H44 C34,46 26,44 26,38 Z" />
+        <!-- Upper Ribbon Highlight (Yellow to Orange Gloss) -->
+        <path
+            android:fillColor="#FF9100"
+            android:pathData="M60,24 H134 C140,24 142,28 138,34 L126,44 H110 L126,30 H60 Z" />
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M116,24 H134 C139,24 141,27 138,31 L128,40 H120 L130,28 H116 Z" />
+
+        <!-- Left Outer Curve Wrap (Smooth 3D Fold on Left Edge) -->
+        <path
+            android:fillColor="#C62828"
+            android:pathData="M26,38 C26,46 32,54 40,62 L48,54 C42,48 38,44 38,38 C38,32 42,28 48,28 L40,24 C30,26 26,32 26,38 Z" />
+    </group>
+
+    <!-- 3. "ZaynTv" TYPOGRAPHY (Bold 3D Metallic Chrome 'Zayn' & Fiery 'Tv') -->
+    <group android:name="typography">
+        <!-- 3.1 "Zayn" (Chrome Silver-White with Thick Black 3D Outlines) -->
+        <!-- 'Z' Black Drop/Outline Base -->
+        <path
+            android:fillColor="#0D0E12"
+            android:pathData="M13,124 H47 V137 L29,155 H48 V167 H11 V154 L29,136 H13 Z" />
+        <!-- 'Z' Metallic Chrome Face -->
+        <path
+            android:fillColor="#ECEFF1"
+            android:pathData="M15,126 H45 V135 L27,153 H46 V165 H13 V156 L31,138 H15 Z" />
+        <!-- 'Z' Metallic Top Highlight -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M15,126 H45 V130 H19 L31,138 H27 L15,126 Z" />
+        <path
+            android:fillColor="#CFD8DC"
+            android:pathData="M13,161 H46 V165 H13 Z" />
+
+        <!-- 'a' Black Drop/Outline Base -->
+        <path
+            android:fillColor="#0D0E12"
+            android:pathData="M50,137 H68 V142 C72,137 78,136 84,136 C94,136 100,142 100,152 V167 H82 V154 C82,148 78,146 72,146 C66,146 62,150 62,156 V167 H50 Z" />
+        <!-- 'a' Metallic Chrome Face -->
+        <path
+            android:fillColor="#ECEFF1"
+            android:pathData="M52,139 H66 V144 C70,139 76,138 82,138 C92,138 98,144 98,153 V165 H84 V154 C84,149 80,147 74,147 C68,147 64,151 64,157 V165 H52 Z" />
+        <!-- 'a' White Bevel Highlight -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52,139 H66 V143 H55 V165 H52 Z" />
+
+        <!-- 'y' Black Drop/Outline Base -->
+        <path
+            android:fillColor="#0D0E12"
+            android:pathData="M102,137 H116 L124,154 L132,137 H146 L131,167 C127,175 120,178 111,178 H103 V167 H109 C114,167 117,164 119,159 L102,137 Z" />
+        <!-- 'y' Metallic Chrome Face -->
+        <path
+            android:fillColor="#ECEFF1"
+            android:pathData="M104,139 H114 L123,155 L131,139 H143 L129,166 C126,173 120,176 112,176 H105 V169 H110 C114,169 117,166 118,160 L104,139 Z" />
+        <!-- 'y' White Highlight -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M104,139 H114 L119,149 L116,150 L104,139 Z" />
+
+        <!-- 'n' Black Drop/Outline Base -->
+        <path
+            android:fillColor="#0D0E12"
+            android:pathData="M148,137 H165 V142 C169,137 175,136 182,136 C191,136 197,142 197,152 V167 H180 V154 C180,148 176,146 170,146 C164,146 160,150 160,156 V167 H148 Z" />
+        <!-- 'n' Metallic Chrome Face -->
+        <path
+            android:fillColor="#ECEFF1"
+            android:pathData="M150,139 H163 V144 C167,139 173,138 180,138 C189,138 195,144 195,153 V165 H182 V154 C182,149 178,147 172,147 C166,147 162,151 162,157 V165 H150 Z" />
+        <!-- 'n' White Highlight -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M150,139 H163 V143 H153 V165 H150 Z" />
+
+        <!-- 3.2 "Tv" (Fiery Red-to-Orange Gradient with Black 3D Outline) -->
+        <!-- 'T' Black Outline Base -->
+        <path
+            android:fillColor="#0D0E12"
+            android:pathData="M130,123 H164 V137 H153 V167 H139 V137 H130 Z" />
+        <!-- 'T' Fiery Crimson-Orange Face -->
+        <path
+            android:fillColor="#E51D1D"
+            android:pathData="M132,125 H162 V135 H151 V165 H141 V135 H132 Z" />
+        <!-- 'T' Orange Highlight -->
+        <path
+            android:fillColor="#FF6D00"
+            android:pathData="M132,125 H162 V129 H132 Z" />
+        <path
+            android:fillColor="#FFA000"
+            android:pathData="M141,125 H151 V127 H141 Z" />
+
+        <!-- 'v' Black Outline Base -->
+        <path
+            android:fillColor="#0D0E12"
+            android:pathData="M164,136 H177 L185,156 L193,136 H206 L193,167 H177 Z" />
+        <!-- 'v' Fiery Red-Orange Face -->
+        <path
+            android:fillColor="#E51D1D"
+            android:pathData="M166,138 H176 L184,156 L192,138 H203 L191,165 H179 Z" />
+        <!-- 'v' Orange Highlight -->
+        <path
+            android:fillColor="#FF8A00"
+            android:pathData="M166,138 H176 L181,148 L178,149 L166,138 Z" />
+    </group>
+
+    <!-- 4. BLACK CAPSULE PILL BADGE: "IPTV • LIVE TV" -->
+    <group android:name="pill_badge">
+        <!-- Capsule Pill Background (Deep Black with Subtle Dark Rim) -->
+        <path
+            android:fillColor="#0D0E12"
+            android:strokeColor="#262A36"
+            android:strokeWidth="1.2"
+            android:pathData="M52,170 H154 A8,8 0 0,1 162,178 A8,8 0 0,1 154,186 H52 A8,8 0 0,1 44,178 A8,8 0 0,1 52,170 Z" />
+
+        <!-- Text: "IPTV" in Crisp Pure White -->
+        <!-- 'I' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M54,173.5 H57 V182.5 H54 Z" />
+        <!-- 'P' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M60,173.5 H67 C69,173.5 70.5,174.5 70.5,176.5 C70.5,178.5 69,179.5 67,179.5 H63 V182.5 H60 Z M63,175.5 V177.5 H67 C67.8,177.5 68.3,177.2 68.3,176.5 C68.3,175.8 67.8,175.5 67,175.5 Z" />
+        <!-- 'T' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M73,173.5 H81 V175.5 H78.5 V182.5 H75.5 V175.5 H73 Z" />
+        <!-- 'V' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M83,173.5 H86 L89,180.5 L92,173.5 H95 L90.5,182.5 H87.5 Z" />
+
+        <!-- Red Circular Separator Dot '•' -->
+        <path
+            android:fillColor="#E51D1D"
+            android:pathData="M103,178 A2.2,2.2 0 1,1 103,177.9 Z" />
+
+        <!-- Text: "LIVE TV" in Crisp Pure White -->
+        <!-- 'L' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M111,173.5 H114 V180.5 H119 V182.5 H111 Z" />
+        <!-- 'I' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M121,173.5 H124 V182.5 H121 Z" />
+        <!-- 'V' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M126,173.5 H129 L132,180.5 L135,173.5 H138 L133.5,182.5 H130.5 Z" />
+        <!-- 'E' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M140,173.5 H148 V175.5 H143 V177 H147 V179 H143 V180.5 H148 V182.5 H140 Z" />
+        <!-- 'T' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M150,173.5 H157 V175.5 H155 V182.5 H152 V175.5 H150 Z" />
+        <!-- 'V' -->
+        <path android:fillColor="#FFFFFF" android:pathData="M158,173.5 H160.8 L163,180.5 L165.2,173.5 H168 L164.5,182.5 H161.5 Z" />
+    </group>
+</vector>

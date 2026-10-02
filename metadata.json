@@ -1,0 +1,6 @@
+{
+  "name": "ZaynTV",
+  "description": "Premium IPTV and Live TV player for Android TV, Google TV, Fire TV and Mobile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

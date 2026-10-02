@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Dark Background -->
+    <path
+        android:fillColor="#0B0F19"
+        android:pathData="M0,0h320v180h-320z" />
+    <path
+        android:fillColor="#141C2E"
+        android:pathData="M160,10 A80,80 0 1,0 160,170 A80,80 0 1,0 160,10 Z" />
+    <!-- Sparkle at Bottom Right -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M280,150 C280,144 286,144 286,140 C286,144 292,144 292,150 C286,150 286,156 286,156 C286,150 280,150 280,150 Z" />
+    <!-- CENTERED LOGO EMBLEM & TYPOGRAPHY GROUP -->
+    <group
+        android:translateX="24"
+        android:translateY="40">
+        <!-- Outer Flowing Ribbon Z - Upper Loop -->
+        <path
+            android:fillColor="#FF6B00"
+            android:strokeColor="#FF9E00"
+            android:strokeWidth="3.6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M24,36 C18,31 22,21 31,21 C40,21 48,25 53,31 C49,36 41,38 33,38 Z" />
+        <!-- Ribbon Z - Diagonal and Lower Sweeping Loop -->
+        <path
+            android:fillColor="#00E5FF"
+            android:strokeColor="#7C4DFF"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M27,36 C34,44 26,55 23,63 C20,71 27,76 37,74 C46,73 57,67 67,67 C60,71 48,76 37,76 C26,76 18,69 21,60 C23,53 29,46 27,36 Z" />
+        <!-- TV Screen Frame -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M39,35 H67 A6,6 0 0,1 73,41 V61 A6,6 0 0,1 67,67 H39 A6,6 0 0,1 33,61 V49" />
+        <!-- 3 Broadcast Waves radiating from top-right corner of TV -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FF6B00"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M61,28 A12,12 0 0,1 72,39" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FF9E00"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M61,21 A19,19 0 0,1 79,39" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M61,14 A27,27 0 0,1 87,39" />
+        <!-- Circular Play Button inside TV -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M44,51 A13,13 0 1,1 44,50.9 Z" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#0B0F19"
+            android:strokeWidth="2"
+            android:pathData="M44,51 A13,13 0 1,1 44,50.9 Z" />
+        <path
+            android:fillColor="#0B0F19"
+            android:pathData="M41,44 L51,51 L41,58 Z" />
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M58,34 A2.4,2.4 0 1,1 58,33.9 Z" />
+        <!-- RIGHT TEXT: "ZAYNTV" -->
+        <path
+            android:fillColor="#FF5722"
+            android:pathData="M98,42 H123 V48 L106,66 H123 V72 H96 V66 L113,48 H98 Z" />
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M136,42 L148,72 H139 L137,65 H128 L126,72 H118 L130,42 Z M133,49 L130,60 H136 Z" />
+        <path
+            android:fillColor="#2979FF"
+            android:pathData="M149,42 L158,56 L166,42 H176 L163,63 V72 H153 V63 L140,42 Z" />
+        <path
+            android:fillColor="#9C27B0"
+            android:pathData="M178,42 H187 L200,63 V42 H208 V72 H199 L186,51 V72 H178 Z" />
+        <path
+            android:fillColor="#7C4DFF"
+            android:pathData="M210,42 H229 V48 H222 V72 H214 V48 H210 Z" />
+        <path
+            android:fillColor="#7C4DFF"
+            android:pathData="M228,42 H237 L244,65 L251,42 H260 L249,72 H240 Z" />
+    </group>
+</vector>
